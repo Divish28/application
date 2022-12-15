@@ -12,23 +12,23 @@ function App(){   //Embedding varible  and Expression into jsx
       <head>
         <link style={{}}></link>
       </head>
-      <body>
-        <h1>Hi, {NAme} Welcome</h1>    
-        <h2>Addition of two numbers is {add(values)} , This is embedding of expression into jsx</h2>          
+      <body>          
         <div>
           <header>
             <div>
-              <nav>
+              <nav className='Login-nav'>
                 <ul>
-                  <li><a href='#Home'>Home</a></li>
-                  <li><a href='#Kids'>Kids</a></li>
-                  <li><a href='#Womens'>Womens</a></li>
-                  <li><a href='#Mens'>Mens</a></li>
-                  <li><a href='#Login'>Login</a></li>
+                  <a href='#Home'>Home</a>
+                  <a href='#Kids'>Kids</a>
+                  <a href='#Womens'>Womens</a>
+                  <a href='#Mens'>Mens</a>
+                  <a href='#Login'>Login</a>
                 </ul>
               </nav>
             </div>
           </header>
+          <h1>Hi, {NAme} Welcome</h1>    
+          <h2>Addition of two numbers is {add(values)} , This is embedding of expression into jsx</h2>
             <div>
               <form>
                 <h1 className='login-headding'>Login Form</h1>
