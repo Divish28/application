@@ -28,9 +28,9 @@ function App(){   //Embedding varible  and Expression into jsx
             </div>
           </header>
           <h1>Hi, {NAme} Welcome</h1>   
-          <h2>Addition of two numbers is, This is embedding of expression into jsx</h2>
+          <h2>Addition of two numbers is,<Sample/> This is embedding of expression into jsx</h2>
             <div>
-              <Sample/>
+              
               <Welcome/>
               <Add/>
               <form>
